@@ -7,6 +7,10 @@
         "eslint",
         "eslintconfig"
     ],
+    "exports": {
+        ".": "./index.js"
+    },
+    "author": "Luca Mimmo",
     "devDependencies": {
         "@eslint/js": "^9.0.0",
         "eslint": "^9.0.0",
