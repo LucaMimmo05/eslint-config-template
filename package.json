@@ -1,19 +1,26 @@
 {
     "name": "@lucamimmo05/eslint-config-template",
     "version": "1.0.3",
+    "description": "Configurazione ESLint condivisa per progetti React",
     "main": "index.js",
     "type": "module",
     "keywords": [
         "eslint",
-        "eslintconfig"
+        "eslintconfig",
+        "react",
+        "prettier"
     ],
     "exports": {
         ".": "./index.js"
     },
     "author": "Luca Mimmo",
-    "devDependencies": {
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LucaMimmo05/eslint-config-template.git"
+    },
+    "dependencies": {
         "@eslint/js": "^9.0.0",
-        "eslint": "^9.0.0",
         "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-react": "^7.34.0",
         "eslint-plugin-react-hooks": "^4.6.0",
