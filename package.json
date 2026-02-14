@@ -1,6 +1,6 @@
 {
     "name": "@lucamimmo05/eslint-config-template",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Configurazione ESLint condivisa per progetti React",
     "main": "index.js",
     "type": "module",
